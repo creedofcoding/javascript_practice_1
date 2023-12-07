@@ -1,0 +1,28 @@
+#bg_img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -9999;
+}
+
+.game-card {
+    height: 100vh;
+    font-family: 'Montserrat', monospace;
+}
+
+.form-btn{
+    margin: 10px;
+}
+
+.card {
+    cursor: default;
+    margin-right: 20px;
+    transition: 1s;
+}
+
+.card:hover {
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(232, 0, 0, 0.67);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(232, 0, 0, 0.67);
+    box-shadow: 0px 0px 30px 0px rgba(232, 0, 0, 0.67);
+}
